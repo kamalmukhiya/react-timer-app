@@ -1,0 +1,45 @@
+.timer-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.timer-heading {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pause {
+  background-color: #f39c12;
+  color: white;
+}
+
+.resume {
+  background-color: #27ae60;
+  color: white;
+}
+
+.reset {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
